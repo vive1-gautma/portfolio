@@ -1,0 +1,173 @@
+*{
+    font-family: system-ui;
+    margin: 0px;
+
+    font-weight: 500;
+}
+.body{
+     
+  background-image: url(univers.jpg);
+    background-size: cover;
+}
+.header{
+    height: 68px;
+    background-color: rgb(255, 115, 0);
+}
+.navbar{
+    height: 68px;
+    display: flex;
+   background-size: initial;
+background-color: black;
+   color: white;
+   font-size: 1.4rem;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.portfolio{
+    padding-right: 1%;
+    padding-left: 2%;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.home a{
+    color: white;
+    text-decoration: none;
+    padding-left: 800px;
+}
+.about a{
+    color: white;
+    text-decoration: none;
+    
+}
+.skills a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.portfolio-text a{
+    text-decoration: none;
+    color: white;}
+
+.contact a{
+        text-decoration: none;
+        color: white;}
+        
+        
+
+ 
+ .my-self{ 
+    font-size: 1.2rem; 
+    height: 300px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+    margin-top: 150px;
+    margin-right:20px;
+    
+ }
+ .border{
+    background-color: rgb(255, 255, 255);
+border-radius:50% ;
+height: 300px;
+width:300px;
+background-image: url(vivek1.png);
+background-size:105%;
+
+
+ }
+ .exe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .social{
+ 
+   height: 50px;
+   width: 300px;
+   margin-left:315px ;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+ }
+ .box{
+    border: 2px solid rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+ }
+ .box1{
+   color: blue;
+   font-size: 3.1rem;
+ }
+ .box2{
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+              
+                
+        -webkit-text-fill-color: transparent;
+        font-size: 2.1rem;
+        background-color: aliceblue;
+ }
+ .box3{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    color: greenyellow;
+ }
+ .box4{
+    color: #285AEB;
+    font-size: 2rem;
+ }
+
+ .box1:hover{
+    background-color:white ;
+    scale: 10px;
+ }
+ .box2:hover{
+    background-color: 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%;
+ }
+ .box3:hover{
+    background-color:greenyellow;
+    color: rgb(255, 255, 255);
+    scale: 10px;
+ }
+ .box4:hover{
+    background-color:rgb(255, 255, 255) ;
+    
+  
+}
+.box:hover{
+    scale: 1.1;
+}
+.box a{
+    text-decoration: none;
+}
+.about-me{
+    height: 50px;
+    width: 200px;
+    font-size: 1.4rem;
+    margin-left: 320px;
+    margin-top: 40px;
+    border-radius: 50px;
+    background: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    background-color: white;
+}
+button:hover.about-me{
+ display: block;
+ filter:drop-shadow(0 0 10px rgb(255, 255, 255));
+ background:none;
+ color: white;
+ scale: 1.1;
+}
+.second2{
+    background-image: url(second.jpg);
+}
